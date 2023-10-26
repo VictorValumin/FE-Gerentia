@@ -90,8 +90,14 @@ main{
                 padding-bottom: 5px;
                 padding: 15px 6%;
                 margin: 0px;
+                cursor: pointer;
             }
                 .menu-lateral .check{
+                    background-color: #469CF7;
+                    border-radius: 8px 0px 0px 8px;
+                    color: rgb(255, 255, 255);
+                }
+                .menu-lateral ul li a:hover{
                     background-color: #469CF7;
                     border-radius: 8px 0px 0px 8px;
                     color: rgb(255, 255, 255);

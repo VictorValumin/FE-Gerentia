@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="arquivos.css">
+    <script src="user.js"></script>
+    <link rel="icon" href="images.user/logonovacortada.png" type="image/x-icon">
+    <title>Arquivos - Gerentia Condominium</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+<body>
+    <header>
+        <div class="logo-div">
+        <a href="#"><img src="images\logonovacortada.png" alt="Logo do GC" class="logo"></a>
+        </div>
+        <div class="user-div">
+                <a href="#">
+                    <img src="images/user.png" alt="user" class="user-placeholder">
+                    <span class="username">Victor Valumin(morador)</span>
+                </a>
+        </div>
+    </header>
+    <main>
+        <div class="left-side">
+            <nav class="menu-lateral">
+                <ul>
+                    <li class="item-menu">
+                        <a id="a0" onclick="mudarIframeUrl('./../user.INICIO/inicio.html', 'Início'), selecionado('a0')">
+                            <span class="icon"><i class="bi bi-people-fill"></i></span>
+                            <span class="txt-link">Início</span>
+                        </a>
+                    </li>
+                    <li class="item-menu">
+                        <a id="a1" onclick="mudarIframeUrl('./../user.MEU/meu.html', 'Meu Condomínio'), selecionado('a1')">
+                            <span class="icon"><i class="bi bi-house-fill"></i></span>
+                            <span class="txt-link">Meu Condomínio</span>
+                        </a>
+                    </li>
+                    <li class="item-menu">
+                        <a id="a2" onclick="mudarIframeUrl('./../user.AVISOS/avisos.html', 'Avisos'), selecionado('a2')">
+                            <span class="icon"><i class="bi bi-bell-fill"></i></span>
+                            <span class="txt-link">Avisos</span>
+                        </a>
+                    </li>
+                    <li class="item-menu">
+                        <a id="a3" onclick="mudarIframeUrl('./../user.FORUM/forum.html', 'Fórum'), selecionado('a3')">
+                            <span class="icon"><i class="bi bi-card-checklist"></i></span>
+                            <span class="txt-link">Fórum</span>
+                        </a>
+                    </li>
+                    <li class="item-menu">
+                        <a id="a4" onclick="mudarIframeUrl('./../user.CHAMADOS/chamados.html', 'Chamados'), selecionado('a4')">
+                            <span class="icon"><i class="bi bi-pen-fill"></i></span>
+                            <span class="txt-link">Chamados</span>
+                        </a>
+                    </li>
+                    <li class="item-menu">
+                        <a id="a5" onclick="mudarIframeUrl('./../user.CORRESPONDENCIAS/correspondencias.html', 'Correspondências'), selecionado('a5')">
+                            <span class="icon"><i class="bi bi-box-seam-fill"></i></span>
+                            <span class="txt-link">Correspondências</span>
+                        </a>
+                    </li>
+                    <li class="item-menu">
+                        <a id="a6" onclick="mudarIframeUrl('./../user.RESERVAS/reservas.html', 'Reservas'), selecionado('a6')">
+                            <span class="icon"><i class="bi bi-bicycle"></i></span>
+                            <span class="txt-link">Reservas</span>
+                        </a>
+                    </li>
+                    <li class="item-menu">
+                        <a id="a7" onclick="mudarIframeUrl('./../user.ARQUIVOS/arquivos.html', 'Arquivos'), selecionado('a7')" class="check">
+                            <span class="icon"><i class="bi bi-file-earmark-arrow-down-fill"></i></span>
+                            <span class="txt-link">Arquivos</span>
+                        </a>
+                    </li>
+                    <li class="item-menu">
+                        <a id="a8" onclick="mudarIframeUrl('./../user.MANUTENCOES/manutencoes.html', 'Manutenções'), selecionado('a8')">
+                            <span class="icon"><i class="bi bi-tools"></i></span>
+                            <span class="txt-link">Manutenções</span>
+                        </a>
+                    </li>
+                    <li class="item-menu">
+                        <a id="a9" onclick="mudarIframeUrl('./../user.CONFIG/config.html', 'Configurações'), selecionado('a9')">
+                            <span class="icon"><i class="bi bi-gear-fill"></i></span>
+                            <span class="txt-link">Configurações</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="right-side">
+            <div class="card-corresp">
+                <div class="card-bottom">
+                    <div class="message-box">
+                        <div class="message-top">
+                            <div class="message-data">
+                                <div class="message-datetime">
+                                    <h5>2 dias atrás.</h5>
+                                </div>
+                                <div class="message-username">
+                                    <h3>Regras do conomínio 19/10 - Ler urgente!!!</h3>
+                                </div>
+                                <div class="message-type">
+                                    <h6>Para <span class="destaque">Todos</span></h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="message-bottom">
+                                Documento
+                        </div>
+                </div>
+        </div>
+    </main>
+</body>
+</html>

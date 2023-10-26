@@ -125,7 +125,7 @@ main{
         justify-content: center;
         align-items: center;
     }
-    .card-aviso{
+    .card-corresp{
         height: 95%;
         width: 97%;
         display: flex;
@@ -154,7 +154,7 @@ main{
                 align-items: center;
                 justify-content: left;
             }
-                .novo-aviso{
+                .nova-corresp{
                     background-color: #469CF7;
                     color: white;
                     width: 100%;
@@ -166,7 +166,7 @@ main{
                     font-size: 16px;
                     padding: 5px 20px;
                 }
-                .novo-aviso:hover{
+                .nova-corresp:hover{
                     background-color: #0e4dcc;
                 }
                 .period-show{
@@ -212,30 +212,29 @@ main{
         }
             .message-box{
                 width: 100%;
+                display: flex;
                 height:fit-content;
-                border-radius: 10px;
-                border-width: 2px;
+                border-radius: 4px;
+                border-width: 1px;
                 border-style:solid;
                 border-color: #e0e0e0;
                 background-color: rgb(253, 253, 253);
+                cursor: pointer;
+            }
+            .message-box:hover{
+                background-color: rgb(235, 236, 255);
             }
                 .message-top{
                     display: flex;
                     flex-direction: row;
                     align-items: center;
-                    margin-left: 15px;
+                    margin-left: 5px;
                     margin-top: 10px;
-                    cursor: pointer;
+                    margin-bottom: 10px;
+
                 }
-                .message-box:hover{
-                    background-color: rgb(235, 236, 255);
-                }
-                    .img-sender{
-                        height: auto;
-                        width: 36px;
-                        margin: none;
-                        justify-content: center;
-                        align-items: center;
+                    .message-type .destaque{
+                        color: #469CF7;
                     }
                     .message-data{
                         display: flex;
@@ -243,24 +242,11 @@ main{
                         line-height: 15px;
                         padding-left: 12px;
                     }
-                        .message-datetime{
-
-                        }
-                        .message-username{
-                            
-                        }
-                        .message-type{
-
-                        }
 
                 .message-bottom{
                     display: flex;
-                    flex-direction: column;
-                    margin-top: 5px;
-                    margin-bottom: 15px;
-                    padding-left: 64px
+                    align-items: center;
+                    margin-left: 25px;
+                    font-family: Arial, Helvetica, sans-serif;
+                    font-size: 15px;
                 }
-                    .message-text{
-                        font-family: Arial, Helvetica, sans-serif;
-                        font-size: 15px;
-                    }

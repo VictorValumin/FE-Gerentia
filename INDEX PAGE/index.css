@@ -30,7 +30,7 @@ header{
 .navigation ul li a{
     color: rgb(240, 240, 240);
     font-weight: 400;
-    font-family: 'Poppins', sans-serisf;
+    font-family: 'Poppins', sans-serif;
     padding-bottom: 1px;
     transition: all 0.2s ease-in-out;
 }

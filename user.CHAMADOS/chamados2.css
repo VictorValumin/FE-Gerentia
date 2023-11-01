@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Ephesis&family=Libre+Baskerville&family=Lora&family=Open+Sans:wght@300;400;500;700;800&family=Outfit:wght@200;400;700&family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    height: 100vh;
+}
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+.main{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height:fit-content;
+    border-radius: 10px;
+    border-width: 2px;
+    border-style:solid;
+    border-color: #e7e7e7;
+    background-color: rgb(77, 161, 133);
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+.message-top{
+    display: flex;
+    flex-direction: row;
+}
+    .user-pic{
+        display: flex;
+        height: 60px;
+        width: auto;
+        margin-top: 6px;
+        margin-left: 12px;
+    }
+    .username{
+        display: flex;
+        font-family: 'Poppins', sans-serif;
+        font-size: 22px;
+        font-weight: bold;
+        align-items: center;
+        padding-left: 6px;
+    }
+    .status{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+    }
+        .status-dot{
+            width: auto;
+            height: 12px;
+        }
+        .status-text{
+
+        }
+.message-bottom{
+    display: flex;
+    width: 70%;
+    height:fit-content;
+    border-radius: 10px;
+    border-width: 2px;
+    border-style:solid;
+    border-color: #e7e7e7;
+    background-color: rgb(77, 161, 133);
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+}
+    .message-balloon{
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+        width: 100%;
+    }
+        .message-title{
+            font-family: 'Poppins', sans-serif;
+            font-size: 36px;
+            font-weight: bold;
+            margin-top: 5px;
+            margin-left: 10px;
+        }
+        .message-text{
+            font-family: 'Lora', sans-serif;
+            font-size: 16px;
+            margin-bottom: 20px;
+            margin-left: 10px;
+        }

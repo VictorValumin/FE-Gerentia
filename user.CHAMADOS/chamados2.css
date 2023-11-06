@@ -24,7 +24,7 @@ body, html {
     border-width: 2px;
     border-style:solid;
     border-color: #e7e7e7;
-    background-color: rgb(77, 161, 133);
+    background-color: rgb(177, 255, 249);
     cursor: pointer;
     margin-bottom: 15px;
 }
@@ -67,8 +67,8 @@ body, html {
     border-radius: 10px;
     border-width: 2px;
     border-style:solid;
-    border-color: #e7e7e7;
-    background-color: rgb(77, 161, 133);
+    border-color: #000000;
+    background-color: rgb(177, 255, 249);
     cursor: pointer;
     margin-top: 20px;
     margin-bottom: 15px;

@@ -46,10 +46,6 @@ body{
     .logo-label{
     display: flex;
     }
-        .logo-label:before{
-            content: "Gerentia Conm";
-        }
-
 .illustration-section{
     display: flex;
     height: 60vh;

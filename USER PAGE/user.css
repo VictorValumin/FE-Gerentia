@@ -44,7 +44,6 @@ header{
         .user-placeholder{
             height: auto;
             width: 36px;
-            margin: none;
             justify-content: center;
             align-items: center;
         }
@@ -122,84 +121,166 @@ main{
     background-color: rgb(224, 224, 224);
     z-index: 1;
 }
-    .card-interface{
-        height: 100%;
-        width: 100%;
-        border-style:solid;
-        border-color: rgb(219, 219, 219);
-        background-color: white;
-        justify-content: center;
-        align-items: center;
-    }
-    .card-aviso{
-        height: 95%;
-        width: 97%;
-        display: flex;
-        flex-direction: column;
-        justify-content: top;
-        align-items: center;
-        padding: 20px 20px;
-        border-radius: 23px;
-        border-width: 2px;
-        border-style:solid;
-        border-color: #e0e0e0;
-        background-color: rgb(253, 253, 253);
-        gap: 0px;
-    }
-        .card-top{
+   .leftright-side{
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: top;
+    width: 70%;
+    height: 100%;
+   }
+        .top-balloon{
             display: flex;
-            flex-direction: row;
-            margin: 0;
-            width: 100%;
-            height: 10vh;
-            align-items: center;
+            flex: row;
+            align-items:flex-start;
+            justify-content: center;
+            background-color: white;
+            border-radius: 8px;
             justify-content: space-between;
-        }   
-            .div-button{
-                display: flex;    
-                align-items: center;
-                justify-content: left;
+            margin: 15px;
+        }
+            .left-part{
+                display: flex;
+                flex-direction: column;
+                padding:12px;
+                padding-left: 22px;
+                padding-bottom: 16px;
             }
-                .novo-aviso{
-                    background-color: #469CF7;
-                    color: white;
-                    width: 100%;
-                    border: none;
-                    border-radius: 4px;
-                    font-weight: 700;
-                    cursor: pointer;
-                    font-family: 'Poppins', sans-serif;
-                    font-size: 16px;
-                    padding: 5px 20px;
+                .top-text{
+                    font-family: 'Poppins';
+                    font-size: 32px;
+                    color: #469CF7;
+                    font-weight: 500;
                 }
-                .novo-aviso:hover{
-                    background-color: #0e4dcc;
+                .bottom-text{
+                    font-family: 'Times New Roman', Times, serif;
+                    font-size: 14px;
+                    font-weight: 500;
                 }
-            .div-search{
-                display: flex;    
+            .right-part{
+                display: flex;
                 flex-direction: row;
                 align-items: center;
-                justify-content: right;
+                justify-content: center;
+                align-self: center;
             }
-                .period-search{
+                .trocar-apartamento{
                     display: flex;
-                    flex: row;
-                    gap: 10px;
-                    font-family: 'Poppins', sans-serif;
+                    border: none;
+                    background-color: transparent;
+                    color: gray;
+                    cursor: pointer;
+                    padding-right: 22px;
                 }
-        .card-bottom{
-            width: 100%;
-            height: 75vh;
+                    .trocar-apartamento:hover{
+                        color:#0E2A56;
+                    }
+        .bottom-balloon{
+         display: flex;
+         flex-direction: row;
+         background-color: transparent;   
+         height: 100%;
         }
-            .message-box{
-                width: 100%;
-                height: 100px;
+            .bottom-balloon-left{
+                display: flex;
+                height: 100%;
+                width: 80%;
             }
-                .message-top{
+                .user-stats{
+                    display: flex;
+                    flex-direction: column;
+                    font-family: 'Poppins';
+                    margin-left: 15px;
+                    margin-right: 15px;
+                    width: 100%;
+                }
+                    .stats-value{
+                    font-size: 90px;
+                    font-weight: 600;
+                    margin-left: 15px;
+                    margin-bottom: -60px;
+                    z-index: 1;
+                    }
+                    .stats-box{
+                        display: flex;
+                        background-color: orange;
+                        border-radius: 8px;
+                        width: 45%;
+                        height: 80px;
+                        align-items: flex-end;
+                        justify-content: flex-end;
+                    }
+                        .stats-owner{
+                            color: white;
+                            font-size: 30px;
+                            margin: 5px;
+                        }
+        .bottom-balloon-right{
+            display: flex;
+            flex-direction: column;
+            padding: px;
+            background-color: white;
+            border-radius: 8px;
+            height: 100%;
+            width: 30%;
+            margin-left: 15px;
+            margin-right: 15px;
+            margin-bottom: 150px;
+        }
+    .rightright-side{
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+        height: 100%;
+    }
+        .notification-side-balloon{
+            display: flex;
+            flex-direction: column;
+            padding-top: 15px;
+            padding-left: 20px;
+            background-color: white;
+            border-top-left-radius: 8px;
+            border-bottom-left-radius: 8px;
+            margin-top: 15px;
+            margin-bottom: 5px;
+            height: 100%;
+        }
+            .notifications{
+                display: flex;
+                font-family: 'Poppins';
+                font-size: 18px;
+                border-bottom: 2px solid #469CF7;
+                border-radius: 2px;
+                margin-right: 15px;
+                padding-bottom: 3px;
+                margin-bottom: 15px;
+            }
+            .notification-box{
+                font-family: 'Times New Roman', Times, serif;
+                margin-bottom: 15px;
+            }
+                .pinned{
+                    color: orange;
+                    text-transform: uppercase;
+                    font-size: 16px;
+                    visibility: visible;
+                }
+                .notification-top{
                     display: flex;
                     flex-direction: row;
-                    align-items: center;
+                    justify-content: space-between;
+                    margin-right: 12px;
                 }
-                    .img-sender{
-                        padding: 15px 10px;
+                    .notification-title{
+                        color: #469CF7;
+                        font-size: 20px;
                     }
+                    .notification-time{
+                        color: gray;
+                        font-size: 12px;
+                        padding-top: 8px;
+                    }
+                .notification-text{
+                    font-family: 'Poppins';
+                    font-size: 13px;
+                }

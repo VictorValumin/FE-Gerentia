@@ -5,6 +5,7 @@
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
+    overflow: hidden;
 }
 
 body{
@@ -19,7 +20,7 @@ body, html {
 header{
     display: flex;
     justify-content: space-between;
-    padding: 5px 55px;
+    padding: 7px 55px;
     background-color: #0E2A56;
     box-shadow: 0px 6px 5px #18181842;
     position: relative;

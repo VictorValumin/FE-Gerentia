@@ -28,6 +28,8 @@ header{
 }
     .logo{
         width: 100px;
+        pointer-events: none;
+        user-select:none;
     }
     .user-div{
         display: flex;
@@ -47,6 +49,9 @@ header{
             width: 36px;
             justify-content: center;
             align-items: center;
+            pointer-events: none;
+            user-select: none;
+            
         }
         .username{
             display: flex;

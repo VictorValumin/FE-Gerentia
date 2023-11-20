@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="chat.css">
+    <link rel="icon" href="images/logonovacortada.png" type="image/x-icon">
+    <title>Chat Geral - Gerentia Condominium</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+<body>
+    <header>
+        <div class="logo-div">
+        <a href="#"><img src="images/logonovacortada.png" alt="Logo do GC" class="logo"></a>
+        </div>
+        <div class="user-div">
+                <a href="#">
+                    <img src="images/user.png" alt="user" class="user-placeholder">
+                    <span class="username">Victor Valumin(morador)</span>
+                </a>
+        </div>
+    </header>
+    <main>
+        <div class="left-side">
+            <nav class="menu-lateral">
+                <ul>
+                    <li class="item-menu">
+                        <a id="a0" onclick="mudarIframeUrl('./../user.INICIO/inicio.html', 'Início'), selecionado('a0')">
+                            <span class="icon"><i class="bi bi-people-fill"></i></span>
+                            <span class="txt-link">Início</span>
+                        </a>
+                    </li>
+                    <li class="item-menu">
+                        <a id="a1" onclick="mudarIframeUrl('./../user.AVISOS/avisos.html', 'Avisos'), selecionado('a2')">
+                            <span class="icon"><i class="bi bi-bell-fill"></i></span>
+                            <span class="txt-link">Avisos</span>
+                        </a>
+                    </li>
+                    <li class="item-menu">
+                        <a id="a2" onclick="mudarIframeUrl('./../user.chat/chat.html', 'Fórum'), selecionado('a3')" class="check">
+                            <span class="icon"><i class="bi bi-card-checklist"></i></span>
+                            <span class="txt-link">Chat geral</span>
+                        </a>
+                    </li>
+                    <li class="item-menu">
+                        <a id="a3" onclick="mudarIframeUrl('./../user.CHAMADOS/chamados.html', 'Chamados'), selecionado('a4')">
+                            <span class="icon"><i class="bi bi-pen-fill"></i></span>
+                            <span class="txt-link">Chamados</span>
+                        </a>
+                    </li>
+                    <li class="item-menu">
+                        <a id="a4" onclick="mudarIframeUrl('./../user.CORRESPONDENCIAS/correspondencias.html', 'Correspondências'), selecionado('a5')">
+                            <span class="icon"><i class="bi bi-box-seam-fill"></i></span>
+                            <span class="txt-link">Correspondências</span>
+                        </a>
+                    </li>
+                    <li class="item-menu">
+                        <a id="a5" onclick="mudarIframeUrl('./../user.RESERVAS/reservas.html', 'Reservas'), selecionado('a6')">
+                            <span class="icon"><i class="bi bi-bicycle"></i></span>
+                            <span class="txt-link">Reservas</span>
+                        </a>
+                    </li>
+                    <li class="item-menu">
+                        <a id="a6" onclick="mudarIframeUrl('./../user.ARQUIVOS/arquivos.html', 'Arquivos'), selecionado('a7')">
+                            <span class="icon"><i class="bi bi-file-earmark-arrow-down-fill"></i></span>
+                            <span class="txt-link">Arquivos</span>
+                        </a>
+                    </li>
+                    <li class="item-menu">
+                        <a id="a7" onclick="mudarIframeUrl('./../user.MANUTENCOES/manutencoes.html', 'Manutenções'), selecionado('a8')">
+                            <span class="icon"><i class="bi bi-tools"></i></span>
+                            <span class="txt-link">Manutenções</span>
+                        </a>
+                    </li>
+                    <li class="item-menu">
+                        <a id="a8" onclick="mudarIframeUrl('./../user.CONFIG/config.html', 'Configurações'), selecionado('a9')">
+                            <span class="icon"><i class="bi bi-gear-fill"></i></span>
+                            <span class="txt-link">Configurações</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="right-side">
+            <div class="main-balloon">
+                <div class="top-section">
+                    <div class="chat-section">
+                        <div class="their-message-section">
+                            <div class="their-photo-section">
+                                <img src="images/user.png" class="their-photo">
+                            </div>
+                            <div class="their-message-balloon">
+                                <div class="their-message-content">
+                                    <div class="their-message-top">
+                                        <div class="their-name">
+                                            Victor Valumin
+                                        </div>
+                                        <div class="their-message-time">
+                                            17:42
+                                        </div>
+                                    </div>
+                                    <div class="their-message-middle">
+                                        <div class="their-message-text">
+                                            Olá pessoal, tenho uma dúvida. A quermesse aqui do condomínio ainda vai rolar? Preciso saber disso o quanto antes para confirmar um encontro com a minha familia. Ajuda!!
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="my-message-section">
+                            <div class="my-message-balloon">
+                                <div class="my-message-content">
+                                    <div class="my-message-top">
+                                        <div class="my-name">
+                                            Allan Ferreira
+                                        </div>
+                                        <div class="my-message-time">
+                                            17:55
+                                        </div>
+                                    </div>
+                                    <div class="my-message-middle">
+                                        <div class="my-message-text">
+                                            Boa noite, Victor! Você viu o novo post que eu fiz no mural? Me responde o quanto antes, por favor.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="my-photo-section">
+                                <img src="images/user.png" class="my-photo">
+                            </div>
+                        </div>
+                        <div class="their-message-section">
+                            <div class="their-photo-section">
+                                <img src="images/user.png" class="their-photo">
+                            </div>
+                            <div class="their-message-balloon">
+                                <div class="their-message-content">
+                                    <div class="their-message-top">
+                                        <div class="their-name">
+                                            Victor Valumin
+                                        </div>
+                                        <div class="their-message-time">
+                                            17:56
+                                        </div>
+                                    </div>
+                                    <div class="their-message-middle">
+                                        <div class="their-message-text">
+                                            Ok
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        
+                    </div>
+
+                </div>
+                <div class="bottom-section">
+                    <input class="chat" placeholder="Digite sua mensagem aqui...">
+
+                    </input>
+                    <button class="send-message">
+                        <i class="bi bi-send-fill"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
